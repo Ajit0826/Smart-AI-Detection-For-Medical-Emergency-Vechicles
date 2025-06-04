@@ -1,6 +1,6 @@
 # 🧠 Intelligent Vehicle & Ambulance Detection Dataset
 
-## Team : [Your Team Name]
+## Team : [Techiee]
 
 ### 🚗🚑 Object Detection Training Dataset for Smart Traffic Systems
 
