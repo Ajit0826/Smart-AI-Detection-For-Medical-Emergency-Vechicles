@@ -1,12 +1,12 @@
-# 🧠 Intelligent Vehicle & Ambulance Detection Dataset
+# 🧠 Smart-AI-Detection-For-Medical-Emergency-Vechicles
 
 ## Team : [Techiee]
 
-### 🚗🚑 Object Detection Training Dataset for Smart Traffic Systems
+### 🚑 Object Detection Training Dataset for Smart Traffic Systems
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Toolkit](https://img.shields.io/badge/OIDv4-Toolkit-yellow.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Libraries](https://img.shields.io/badge/Libraries-Numpy%2C%20OpenCV%2C%20TensorFlow%2C%20PyTorch-gold)
 ![Status](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 
 ---
@@ -110,12 +110,6 @@ vehicle-amb-detection-dataset/
 ## 🤝 Contributing
 
 We welcome contributions to extend this dataset (e.g., more vehicle types, more regions). Please fork the repo, make changes, and submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
