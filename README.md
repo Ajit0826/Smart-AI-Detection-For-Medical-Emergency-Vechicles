@@ -1,51 +1,124 @@
- 
-**Team : VisionQuest**
+# 🧠 Intelligent Vehicle & Ambulance Detection Dataset
+
+## Team : [Your Team Name]
+
+### 🚗🚑 Object Detection Training Dataset for Smart Traffic Systems
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Toolkit](https://img.shields.io/badge/OIDv4-Toolkit-yellow.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 
 ---
 
-## 🚗 Smart-AI-Detection-For-Medical-Emergency-Vechicles
+Welcome to the **Vehicle & Ambulance Detection Dataset**! This dataset is curated to train and test object detection models focused on differentiating between various vehicle types, including **ambulances**, making it highly relevant for **autonomous vehicles**, **emergency response systems**, and **traffic monitoring solutions**.
 
+---
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Libraries](https://img.shields.io/badge/Libraries-Numpy%2C%20OpenCV%2C%20TensorFlow%2C%20PyTorch-gold)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+## 🚀 Problem Statement
 
-Welcome to Smart-AI-Detection-For-Medical-Emergency-Vechicles – an expertly curated vehicle detection dataset built from the Open Images dataset using the OIDv4 Toolkit. This project offers a focused dataset of 627 labeled images across multiple vehicle types to help train and evaluate object detection systems.
+### Objective
 
-**🚀 Problem Statement**
-Objective
-The goal of AutoSight is to provide a lightweight yet diverse dataset that enables:
+Develop and evaluate object detection models that can:
 
-🚘 Detection and classification of vehicle types: car, bus, motorcycle, ambulance, and truck
+1. 🚌 **Differentiate between multiple vehicle types** – car, bus, motorcycle, ambulance, and truck.
+2. 🧠 **Train specialized models** – e.g., an ambulance-specific detector.
+3. ✅ **Test detection models** on scenes with high vehicle density.
+4. 📍 **Use in smart city and autonomous driving applications.**
 
-🧠 Training of smart object detection models for autonomous driving applications
+---
 
-🧪 Benchmarking and testing of object detectors in dense traffic and ambulance-heavy scenes
+## 🎯 Use Cases
 
-🏥 Fine-tuning and development of ambulance detection systems for emergency response AI
+- 🚘 **Train object detectors** for vehicle classification.
+- 🚓 **Ambulance detection system** for emergency response prioritization.
+- 🚦 **Autonomous vehicle vision system** training data.
+- 🔍 **Dataset quality analysis** for Open Images usage exploration.
+- 📊 **Benchmarking object detection models** on real-world traffic scenes.
 
-🗂️ Dataset Overview
-Images: 627
+---
 
-Classes: Car, Bus, Motorcycle, Ambulance, Truck
+## 🗃️ Dataset Overview
 
-Format: JPEG images with bounding box labels (in PASCAL VOC or YOLO format, depending on toolkit configuration)
+### 📁 Dataset Source
+This dataset was gathered using the **OIDv4 Toolkit**, allowing flexible class-based image retrieval from the **Open Images Dataset** with bounding box annotations.
 
-Source: Extracted using the OIDv4 Toolkit
+### 📷 Example Images
+![Example1](./images/image1.png)
+![Example2](./images/image2.png)
+![Example3](./images/image3.png)
 
-📸 Image Sample
-(Include one or two sample images from the dataset here for visual representation)
+> Includes bounding boxes for: `Car`, `Truck`, `Motorcycle`, `Bus`, and `Ambulance`.
 
-📦 Tools & Technologies
-🔧 OIDv4 Toolkit – For extracting class-specific images and annotations
+---
 
-🐍 Python Libraries: numpy, opencv-python, matplotlib, Pillow
+## ⚙️ Tools Used
 
-🧠 Compatible with PyTorch, TensorFlow, YOLOv5, Detectron2
+- 🛠 **OIDv4 Toolkit** for class-wise image downloading.
+- 💡 **Open Images Dataset** (V6) – a large-scale dataset with rich annotations.
+- 🐍 Python 3.x
+- 📦 Libraries: `pandas`, `opencv-python`, `matplotlib`, `scikit-learn` (for preprocessing/visualization)
 
-🏁 Getting Started
-📋 Prerequisites
-Python 3.x
+---
 
-Libraries: numpy, opencv-python, matplotlib, pandas, pyyaml, scikit-learn
+## 🧰 Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- Required libraries (see `requirements.txt`):
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/vehicle-amb-detection-dataset.git
+cd vehicle-amb-detection-dataset
+```
+
+---
+
+## 📁 Folder Structure
+
+```plaintext
+vehicle-amb-detection-dataset/
+│
+├── images/               # Example image samples
+├── annotations/          # Bounding box CSVs
+├── utils/                # Toolkit scripts & download helpers
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🧠 Algorithm Suggestion
+
+> You can train your own object detector using:
+
+- 📍 Feature Extractors: YOLOv5, SSD, Faster R-CNN
+- 🧠 Models: PyTorch, TensorFlow
+- 🎯 Training Approach:
+  - Parse OID bounding boxes
+  - Format in YOLO/COCO style
+  - Train using fine-tuned parameters for multi-class detection
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions to extend this dataset (e.g., more vehicle types, more regions). Please fork the repo, make changes, and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## 🙌 Acknowledgments
+
+This dataset is inspired by the need for precise object detection in high-stakes environments such as autonomous driving and emergency services. Special thanks to the creators of the **OIDv4 Toolkit** and **Open Images Dataset** for enabling scalable, real-world data access.
